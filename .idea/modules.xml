@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/kefu2.0/lexeme.iml" filepath="$PROJECT_DIR$/kefu2.0/lexeme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_on_idea_template/springmvc_on_idea_template.iml" filepath="$PROJECT_DIR$/springmvc_on_idea_template/springmvc_on_idea_template.iml" />
     </modules>
   </component>
 </project>
