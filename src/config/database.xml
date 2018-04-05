@@ -4,9 +4,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean name="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="url" value="jdbc:MySQL://192.168.110.232:3306/lexeme?characterEncoding=utf8" />
-        <property name="username" value="oss" />
-        <property name="password" value="vUBerOnm" />
+        <property name="url" value="jdbc:MySQL://chhblog.com:3306/springmvc?characterEncoding=utf8" />
+        <property name="username" value="springmvc" />
+        <property name="password" value="springmvc_2018" />
     </bean>
 </beans>
 

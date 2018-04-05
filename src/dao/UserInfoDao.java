@@ -1,21 +1,17 @@
 package dao;
 
-import domain.Word;
-import org.apache.commons.lang3.ArrayUtils;
+import domain.UserInfo;
 import org.hibernate.Session;
 import org.hibernate.procedure.ProcedureCall;
 import org.javatuples.KeyValue;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.ParameterMode;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 
 @Repository
-public class WordDao extends BaseDao<Word> {
-
-    public void callProc(List<KeyValue<String,Integer>> wordInfo,  int type, int dataId, int sysId) {
+public class UserInfoDao extends BaseDao<UserInfo> {
+    public void callProc(List<KeyValue<String,Integer>> wordInfo, int type, int dataId, int sysId) {
         if( wordInfo.size() == 0 ) {
             return;
         }
@@ -32,5 +28,4 @@ public class WordDao extends BaseDao<Word> {
             return null;
         });
     }
-
 }
