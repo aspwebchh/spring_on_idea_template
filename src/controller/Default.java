@@ -16,7 +16,7 @@ public class Default {
     UserInfoService userInfoService;
 
     @RequestMapping(value = "/welcome")
-    public void welcome(PrintWriter pw) {
+    public void welcome(PrintWriter pw) throws Exception {
         pw.write("hello world");
     }
 
